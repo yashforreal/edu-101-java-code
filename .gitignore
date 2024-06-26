@@ -1,2 +1,7 @@
 **/target/*
 .DS_Store
+.idea/edu-101-java-code.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/.gitignore

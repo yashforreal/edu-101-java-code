@@ -17,7 +17,8 @@ public class GreetingWorker {
         worker.registerWorkflowImplementationTypes(GreetingWorkflowImpl.class);
 
         // TODO: Register your Activity Implementations
-        worker.registerActivitiesImplementations(new TODO());
+        // DONE
+        worker.registerActivitiesImplementations(new GreetingActivitiesImpl());
 
         factory.start();
     }

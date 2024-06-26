@@ -10,7 +10,7 @@ public class Starter {
 
         WorkflowServiceStubs service = WorkflowServiceStubs.newLocalServiceStubs();
 
-        WorkflowClient client = WorkflowClient.newInstance(service);        
+        WorkflowClient client = WorkflowClient.newInstance(service);
 
         WorkflowOptions options = WorkflowOptions.newBuilder()
                     .setWorkflowId("greeting-workflow")
