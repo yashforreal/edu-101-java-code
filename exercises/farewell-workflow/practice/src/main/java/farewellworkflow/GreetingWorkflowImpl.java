@@ -16,7 +16,7 @@ public class GreetingWorkflowImpl implements GreetingWorkflow {
     @Override
     public String greetSomeone(String name){
         String spanishGreeting = activities.greetInSpanish(name);
-        // TODO: uncomment the line below and change it to execute the Activity method you created
+        // TODO (DONE): uncomment the line below and change it to execute the Activity method you created
         // DONE
         String spanishFarewell = activities.farewellInSpanish(name);
 
